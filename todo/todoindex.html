@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="../style.css"> <!-- Your global styles -->
+  <link rel="stylesheet" href="todostyle.css">   <!-- Todo-specific styles -->
+</head>
+<body>
+  <div class="todo-container">
+    <h1>My Todo List</h1>
+    <form id="todoForm">
+      <input 
+        type="text" 
+        id="todoInput" 
+        placeholder="Add a task..." 
+        required
+      >
+      <button type="submit">Add</button>
+    </form>
+    <ul id="todoList"></ul>
+  </div>
+  <script src="todoscript.js"></script>
+</body>
+</html>
