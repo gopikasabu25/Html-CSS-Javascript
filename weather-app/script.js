@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!city) return alert("Please enter an Indian city");
 
     // ✅ Use apiKey declared in config.js
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},IN&appid=${"463be4252b4e6137188267f167d52f39"}&units=metric`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},IN&appid=${"use your api"}&units=metric`;
 
     try {
       const response = await fetch(apiUrl);
